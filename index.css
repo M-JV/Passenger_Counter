@@ -1,0 +1,78 @@
+body {
+    background-image: url("ZA003a.jpg"); /* Replace with your airplane interior image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #fff; /* White text color */
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+    color: #fff; /* White text color */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #0074d9;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style each button separately */
+#increment-btn {
+    background-color: #ff4136;
+}
+
+#save-btn {
+    background-color: #2ecc40;
+}
+
+#clear-btn {
+    background-color: #001f3f;
+}
+
+.save-container {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#save-el {
+    font-size: 18px;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px;
+}
